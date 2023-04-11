@@ -25,7 +25,6 @@ int main()
         if (dividend == 0)
         {
 
-            cout << "Your number have " << figures << " figures\n";
             for (int i = 0; i < figures; i++)
             {
 
@@ -37,14 +36,11 @@ int main()
                     {
 
                         Pow[i] = pow(reminder[i], figures);
-                        cout << Pow[i] << " ";
                     }
                     for (int i = 0; i < figures; i++)
                     {
                         plus += Pow[i];
                     }
-
-                    cout << "\n";
                 }
             }
             break;
@@ -52,7 +48,6 @@ int main()
 
         divisor = dividend;
     }
-    cout << plus << "\n";
     if (plus == result)
     {
         cout << result << " is armstrog\n";
