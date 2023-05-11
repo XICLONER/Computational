@@ -3,40 +3,29 @@ using namespace std;
 
 int main()
 {
-    char directions[] = {'w', 's', 'd', 'a'};
+    char directions[] = {'w', 'W', 's', 'S', 'd', 'D', 'a', 'A'};
     char input;
 
     cout << "Which direction? (w , s , d , a):\n";
     cin >> input;
 
-    for (int i = 0; i < 4; i++)
+    if (input == directions[0] || input == directions[1])
     {
-        if (input == directions[0])
-        {
-            cout << "Up\n";
+        cout << "Up\n";
+    }
 
-            break;
-        }
+    if (input == directions[2] || input == directions[3])
+    {
+        cout << "Down\n";
+    }
 
-        if (input == directions[1])
-        {
-            cout << "Down\n";
+    if (input == directions[4] || input == directions[5])
+    {
+        cout << "Right\n";
+    }
 
-            break;
-        }
-
-        if (input == directions[2])
-        {
-            cout << "Right\n";
-
-            break;
-        }
-
-        if (input == directions[3])
-        {
-            cout << "Left\n";
-
-            break;
-        }
+    if (input == directions[6] || input == directions[7])
+    {
+        cout << "Left\n";
     }
 }
