@@ -30,7 +30,7 @@ int main()
 
             if (numbers[z] % i == 0)
             {
-                cout << numbers[z] << "\tis not prime :(\n";
+                cout << numbers[z] << "\tis not prime \n";
                 isNotPrime = true;
 
                 break;
@@ -39,11 +39,11 @@ int main()
 
         if (isNotPrime == false)
         {
-            cout << numbers[z] << "\tis prime :) \n";
+            cout << numbers[z] << "\tis prime \n";
             x++;
         }
     }
-    cout << "\tThere is " << x << " prime numbers.\n";
+    cout << "\tThere is " << x << " prime numbers\n";
 
     return 0;
 }
