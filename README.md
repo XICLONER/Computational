@@ -12,6 +12,7 @@
 4- Fibonacci <br>
 5- Multiplication table <br>
 6- Prime numbers <br>
+7- Sort numbers from big to small <br>
 </big>
 <hr>
 
@@ -59,4 +60,12 @@ A whole number greater than 1 whose only factors are 1 and itself.
 ### How this code works?
 At first, you should give the program the number of numbers you want to enter, then you should enter your numbers and
 at the end the program will tell you which number is prime and which one is not and also how many of numbers are prime and how many of them is not.
+
+<hr>
+
+## **Sort numbers from big to small:**
+At first, this code will ask you how many numbers do you want to enter. after you enter the number of numbers, you should enter your number, and then the code will give you the result. 
+
+<hr>
+
 </big>
