@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     int n;
+    int assume;
 
     cout << "How many numbers do you wana enter:\n";
     cin >> n;
@@ -17,4 +18,16 @@ int main()
     {
         cin >> numbers[i];
     }
+
+    assume = numbers[0];
+
+    for (int i = 1; i <= n; i++)
+    {
+        if (assume > numbers[i])
+        {
+            assume = numbers[i];
+        }
+    }
+    
+    return 0;
 }
