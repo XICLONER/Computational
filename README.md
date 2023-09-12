@@ -12,7 +12,7 @@
 4- Fibonacci <br>
 5- Multiplication table <br>
 6- Prime numbers <br>
-7- Sort numbers from big to small <br>
+7- Bubble sort <br>
 </big>
 <hr>
 
@@ -63,8 +63,8 @@ at the end the program will tell you which number is prime and which one is not 
 
 <hr>
 
-## **Sort numbers from big to small:**
-At first, this code will ask you how many numbers do you want to enter. after you enter the number of numbers, you should enter your number, and then the code will give you the result. 
+## **Bubble sort:**
+At first, this code will ask you how many numbers do you want to enter. after you enter the number of numbers, you should enter your number, and then the code will sort the numbers by using bubble sort method and gives you result.
 
 <hr>
 
