@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
     int n;
-    int assume;
+    int current;
 
-    cout << "How many numbers do you wana enter:\n";
+    cout << "How many numbers do you want to enter:\n";
     cin >> n;
 
     int numbers[n];
@@ -19,15 +19,30 @@ int main()
         cin >> numbers[i];
     }
 
-    assume = numbers[0];
-
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i < n - 1; i++)
     {
-        if (assume > numbers[i])
+        int max_index = i;
+        for (int j = i + 1; j < n; j++)
         {
-            assume = numbers[i];
+            if (numbers[j] > numbers[max_index])
+            {
+                max_index = j;
+            }
+        }
+        if (max_index != i)
+        {
+            current = numbers[i];
+            numbers[i] = numbers[max_index];
+            numbers[max_index] = current;
         }
     }
-    
+
+    cout << "Result is:\n";
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << numbers[i] << "\n";
+    }
+
     return 0;
 }
