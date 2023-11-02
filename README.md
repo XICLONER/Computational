@@ -7,13 +7,15 @@
 ## Contents:
 <big>
 1- Armstrong numbers <br>
-2- Convert decimal to binary <br>
-3- Divisible <br>
-4- Fibonacci <br>
-5- Multiplication table <br>
-6- Prime numbers <br>
-7- Bubble sort <br>
+2- Bubble sort <br>
+3- Convert decimal to binary <br>
+4- Divisible <br>
+5- Fibonacci <br>
+6- Multiplication table <br>
+7- Prime numbers <br>
+8- Selection sort <br>
 </big>
+
 <hr>
 
 ## Contents description :
@@ -27,6 +29,9 @@ One whose sum of digits raised to the power three equals the number itself. <br>
 Example: 371 is an Armstrong number because **3^ 3 + 7^ 3 + 1^ 3 = 371**
 
 <hr>
+
+## **Bubble sort:**
+At first, this code will ask you how many numbers do you want to enter. after you enter the number of numbers, you should enter your number, and then the code will sort the numbers by using bubble sort method and gives you result.
 
 ### **Convert decimal to binary :**
 ❗️**Hint :** this code able to convert numbers with maximum seven digits.
@@ -63,8 +68,9 @@ at the end the program will tell you which number is prime and which one is not 
 
 <hr>
 
-## **Bubble sort:**
-At first, this code will ask you how many numbers do you want to enter. after you enter the number of numbers, you should enter your number, and then the code will sort the numbers by using bubble sort method and gives you result.
+## **Selection sort :**
+
+At first, this code will ask you how many numbers do you want to enter. after you enter the number of numbers, you should enter your number, and then the code will sort the numbers by using selection sort method and gives you result.
 
 <hr>
 
