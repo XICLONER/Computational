@@ -21,19 +21,21 @@ int main()
 
     for (int i = 0; i < n - 1; i++)
     {
-        int max_index = i;
+        int max = i;
+
         for (int j = i + 1; j < n; j++)
         {
-            if (numbers[j] > numbers[max_index])
+            if (numbers[j] > numbers[max])
             {
-                max_index = j;
+                max = j;
             }
         }
-        if (max_index != i)
+
+        if (max != i)
         {
             current = numbers[i];
-            numbers[i] = numbers[max_index];
-            numbers[max_index] = current;
+            numbers[i] = numbers[max];
+            numbers[max] = current;
         }
     }
 
