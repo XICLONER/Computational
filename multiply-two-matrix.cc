@@ -21,12 +21,7 @@ int main()
     cout << "How many columns does your second matrix have?\n";
     cin >> second_matrix_col;
 
-    if (first_matrix_col == second_matrix_row)
-    {
-        cout << "Your first matrix is " << first_matrix_row << "*" << first_matrix_col << " and the second matrix is "
-             << second_matrix_row << "*" << second_matrix_col << "\n";
-    }
-    else
+    if (first_matrix_col != second_matrix_row)
     {
         cout << "The number of columns in the first matrix must be equal to the number of rows in the second matrix\n";
         return 0;
@@ -34,6 +29,7 @@ int main()
 
     int first_matrix[first_matrix_row][first_matrix_col];
     int second_matrix[second_matrix_row][second_matrix_col];
+    int multiplication_matrix[first_matrix_row][second_matrix_col];
 
     cout << "Enter your first matrix elements:\n";
 
@@ -55,22 +51,24 @@ int main()
         }
     }
 
-    cout << "\nElements of the first matrix:\n";
     for (int i = 0; i < first_matrix_row; i++)
-    {
-        for (int j = 0; j < first_matrix_col; j++)
-        {
-            cout << "\t" << first_matrix[i][j] << "\t";
-        }
-        cout << "\n";
-    }
-
-    cout << "\nElements of the second matrix:\n";
-    for (int i = 0; i < second_matrix_row; i++)
     {
         for (int j = 0; j < second_matrix_col; j++)
         {
-            cout << "\t" << second_matrix[i][j] << "\t";
+            multiplication_matrix[i][j] = 0;
+            for (int x = 0; x < first_matrix_col; x++)
+            {
+                multiplication_matrix[i][j] = multiplication_matrix[i][j] + first_matrix[i][x] * second_matrix[x][j];
+            }
+        }
+    }
+
+    cout << "\nResult of matrix multiplication:\n";
+    for (int i = 0; i < first_matrix_row; i++)
+    {
+        for (int j = 0; j < second_matrix_col; j++)
+        {
+            cout << multiplication_matrix[i][j] << "\t";
         }
         cout << "\n";
     }
