@@ -30,7 +30,7 @@ int main()
     cout << "Enter c : \n";
     cin >> c;
 
-    delta = power_b - (4) * (a) * (c);
+    delta = power_b - (4 * a * c);
 
     square_delta = sqrt(delta);
 
@@ -42,14 +42,14 @@ int main()
 
     if (delta == 0)
     {
-        x = -(b) / 2 * (a);
+        x = -(b) / (2 * a);
         cout << "There is one answer, it's " << x << "\n";
         return 0;
     }
 
     if (delta > 0)
     {
-        x = -(b) + (square_delta) / (2) * (a);
+        x = -(b) + (square_delta) / (2 * a);
 
         cout << "There is two answer\n";
 
@@ -57,7 +57,7 @@ int main()
 
         x = 0;
 
-        x = -(b) - (square_delta) / (2) * (a);
+        x = -(b) - (square_delta) / (2 * a);
 
         cout << "or \n"
              << "x is = " << x << "\n";
