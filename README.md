@@ -6,19 +6,23 @@
 
 ## Contents:
 <big>
-1. Armstrong numbers <br>
-2. Bubble sort <br>
-3. Convert decimal to binary <br>
-4. Divisible <br>
-5. Fibonacci <br>
-6. Multiplication table <br>
-7. Multiply two matrices <br>
-8. Palindrome <br>
-9. Prime numbers <br>
-10. Selection sort <br>
+1. Average <br>
+2. Armstrong numbers <br>
+3. Bubble sort <br>
+4. Convert decimal to binary <br>
+5. Divisible <br>
+6. Fibonacci <br>
+7. Multiplication table <br>
+8. Multiply two matrices <br>
+9. Palindrome <br>
+10. Prime numbers <br>
+11. Selection sort <br>
 </big>
 <hr>
 
+
+# Average :
+This code calculates the average of the numbers.
 
 # Armstrong :
 This code gets a number and told you if is it an Armstrong number or not.
