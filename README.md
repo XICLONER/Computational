@@ -11,12 +11,13 @@
 3. Bubble sort <br>
 4. Convert decimal to binary <br>
 5. Divisible <br>
-6. Fibonacci <br>
-7. Multiplication table <br>
-8. Multiply two matrices <br>
-9. Palindrome <br>
-10. Prime numbers <br>
-11. Selection sort <br>
+6. Length of a string <br>
+7. Fibonacci <br>
+8. Multiplication table <br>
+9. Multiply two matrices <br>
+10. Palindrome <br>
+11. Prime numbers <br>
+12. Selection sort <br>
 </big>
 <hr>
 
@@ -44,6 +45,9 @@ Take decimal number as dividend. Divide this number by 2 (2 is base of binary so
 
 # Divisible :
 This code gets two numbers from you and says is the first number divisible by the second or not.
+
+# Length of a string :
+This program will help you to find the length of your string.
 
 
 # Fibonacci :
