@@ -9,15 +9,16 @@
 1. Average <br>
 2. Armstrong numbers <br>
 3. Bubble sort <br>
-4. Convert decimal to binary <br>
-5. Divisible <br>
-6. Length of a string <br>
-7. Fibonacci <br>
-8. Multiplication table <br>
-9. Multiply two matrices <br>
-10. Palindrome <br>
-11. Prime numbers <br>
-12. Selection sort <br>
+4. Calculator <br>
+5. Convert decimal to binary <br>
+6. Divisible <br>
+7. Length of a string <br>
+8. Fibonacci <br>
+9. Multiplication table <br>
+10. Multiply two matrices <br>
+11. Palindrome <br>
+12. Prime numbers <br>
+13. Selection sort <br>
 </big>
 <hr>
 
@@ -34,6 +35,10 @@ Example: 371 is an Armstrong number because **3^ 3 + 7^ 3 + 1^ 3 = 371**
 
 # Bubble sort :
 At first, this code will ask you how many numbers do you want to enter. after you enter the number of numbers, you should enter your number, and then the code will sort the numbers by using bubble sort method and gives you result.
+
+
+# Calculator :
+This is a calculator for calculate!
 
 
 # Convert decimal to binary :
