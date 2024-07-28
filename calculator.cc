@@ -7,7 +7,7 @@ int main()
     int first_num;
     int second_num;
     char sign;
-    int restult;
+    int result;
 
     cout << "please enter the first number:\n";
     cin >> first_num;
@@ -18,38 +18,41 @@ int main()
     cout << "please enter the second number:\n";
     cin >> second_num;
 
-    if (sign == '+')
+    switch (sign)
     {
-        restult = first_num + second_num;
-        cout << restult << "\n";
-        return 0;
-    }
+    case '+':
+        result = first_num + second_num;
+        cout << "the result is: " << result << "\n";
 
-    if (sign == '-')
-    {
-        restult = first_num - second_num;
-        cout << restult << "\n";
-        return 0;
-    }
+        break;
 
-    if (sign == '*')
-    {
-        restult = first_num * second_num;
-        cout << restult << "\n";
-        return 0;
-    }
+    case '-':
+        result = first_num - second_num;
+        cout << "the result is: " << result << "\n";
 
-    if (sign == '/')
-    {
-        restult = first_num / second_num;
-        cout << restult << "\n";
-        return 0;
-    }
+        break;
 
-    if (sign == '^')
-    {
-        restult = first_num ^ second_num;
-        cout << restult << "\n";
-        return 0;
+    case '*':
+        result = first_num * second_num;
+        cout << "the result is: " << result << "\n";
+
+        break;
+
+    case '/':
+        result = first_num / second_num;
+        cout << "the result is: " << result << "\n";
+
+        break;
+
+    case '^':
+        result = first_num ^ second_num;
+        cout << "the result is: " << result << "\n";
+
+        break;
+
+    default:
+        cout << "I said choose an operator between + - * / ^ ";
+
+        break;
     }
 }
