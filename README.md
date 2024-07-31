@@ -10,15 +10,16 @@
 2. Armstrong numbers <br>
 3. Bubble sort <br>
 4. Calculator <br>
-5. Convert decimal to binary <br>
-6. Divisible <br>
-7. Length of a string <br>
-8. Fibonacci <br>
-9. Multiplication table <br>
-10. Multiply two matrices <br>
-11. Palindrome <br>
-12. Prime numbers <br>
-13. Selection sort <br>
+5. Convert celsius to fahrenheit <br>
+6. Convert decimal to binary <br>
+7. Divisible <br>
+8. Length of a string <br>
+9. Fibonacci <br>
+10. Multiplication table <br>
+11. Multiply two matrices <br>
+12. Palindrome <br>
+13. Prime numbers <br>
+14. Selection sort <br>
 </big>
 <hr>
 
@@ -40,6 +41,8 @@ At first, this code will ask you how many numbers do you want to enter. after yo
 # Calculator :
 This is a calculator for calculate!
 
+# Convert celsius to fahrenheit :
+there is a formula for converting celsius to fahrenheit, this program is converts temperatures between different units. 
 
 # Convert decimal to binary :
 ❗️**Hint :** This code able to convert numbers with maximum seven digits.
