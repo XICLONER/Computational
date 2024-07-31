@@ -10,17 +10,18 @@
 2. Armstrong numbers <br>
 3. Bubble sort <br>
 4. Calculator <br>
-5. Convert celsius to fahrenheit <br>
-6. Convert decimal to binary <br>
-7. Convert fahrenheit to celsius <br>
-8. Divisible <br>
-9. Length of a string <br>
-10. Fibonacci <br>
-11. Multiplication table <br>
-12. Multiply two matrices <br>
-13. Palindrome <br>
-14. Prime numbers <br>
-15. Selection sort <br>
+5. Circumference and area of circle <br>
+6. Convert celsius to fahrenheit <br>
+7. Convert decimal to binary <br>
+8. Convert fahrenheit to celsius <br>
+9. Divisible <br>
+10. Length of a string <br>
+11. Fibonacci <br>
+13. Multiplication table <br>
+14. Multiply two matrices <br>
+15. Palindrome <br>
+16. Prime numbers <br>
+17. Selection sort <br>
 </big>
 <hr>
 
@@ -41,6 +42,9 @@ At first, this code will ask you how many numbers do you want to enter. after yo
 
 # Calculator :
 This is a calculator for calculate!
+
+# Circumference and area of circle :
+this program is able to calculate the cirvumference and area of a circle by using of radius.
 
 # Convert celsius to fahrenheit :
 there is a formula for converting celsius to fahrenheit, this program is converts temperatures between different units.
