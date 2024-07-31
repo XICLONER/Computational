@@ -12,14 +12,15 @@
 4. Calculator <br>
 5. Convert celsius to fahrenheit <br>
 6. Convert decimal to binary <br>
-7. Divisible <br>
-8. Length of a string <br>
-9. Fibonacci <br>
-10. Multiplication table <br>
-11. Multiply two matrices <br>
-12. Palindrome <br>
-13. Prime numbers <br>
-14. Selection sort <br>
+7. Convert fahrenheit to celsius <br>
+8. Divisible <br>
+9. Length of a string <br>
+10. Fibonacci <br>
+11. Multiplication table <br>
+12. Multiply two matrices <br>
+13. Palindrome <br>
+14. Prime numbers <br>
+15. Selection sort <br>
 </big>
 <hr>
 
@@ -42,7 +43,7 @@ At first, this code will ask you how many numbers do you want to enter. after yo
 This is a calculator for calculate!
 
 # Convert celsius to fahrenheit :
-there is a formula for converting celsius to fahrenheit, this program is converts temperatures between different units. 
+there is a formula for converting celsius to fahrenheit, this program is converts temperatures between different units.
 
 # Convert decimal to binary :
 ❗️**Hint :** This code able to convert numbers with maximum seven digits.
@@ -50,6 +51,10 @@ there is a formula for converting celsius to fahrenheit, this program is convert
 If you are interested to know how these numbers are converted, this is a simple explanation about it: <br>
 Take decimal number as dividend. Divide this number by 2 (2 is base of binary so divisor here). Store the remainder in an array(it will be either 0 or 1 because of divisor 2). Repeat the above two steps until the number is greater than zero.
  
+
+# Convert fahrenheit to celsius :
+there is a formula for converting fahrenheit to celsius, this program is converts temperatures between different units.
+
 
 # Divisible :
 This code gets two numbers from you and says is the first number divisible by the second or not.
