@@ -16,7 +16,8 @@
 8. Convert fahrenheit to celsius <br>
 9. Divisible <br>
 10. Length of a string <br>
-11. Fibonacci <br>
+11. Factorial
+12. Fibonacci <br>
 13. Multiplication table <br>
 14. Multiply two matrices <br>
 15. Palindrome <br>
@@ -65,6 +66,10 @@ This code gets two numbers from you and says is the first number divisible by th
 
 # Length of a string :
 This program will help you to find the length of your string.
+
+# Factorial :
+Factorila of a positive number is the product of all positive integers from 1 to that number.<br>
+it is denoted as **n!** <br>
 
 
 # Fibonacci :
