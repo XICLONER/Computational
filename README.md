@@ -28,7 +28,7 @@
 
 
 # Average :
-This code calculates the average of the numbers.
+This code calculates the average of two numbers.
 
 # Armstrong :
 This code gets a number and told you if is it an Armstrong number or not.
