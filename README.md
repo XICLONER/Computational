@@ -27,11 +27,11 @@
 <hr>
 
 
-# Average :
+# Average : 
 This code calculates the average of two numbers.
 
 # Armstrong :
-This code gets a number and told you if is it an Armstrong number or not.
+This code takes a number from the user, calculates, and tells you whether it is an Armstrong number or not.
 ### What is Armstrong numbers?
 One whose sum of digits raised to the power three equals the number itself. <br>
 Example: 371 is an Armstrong number because **3^ 3 + 7^ 3 + 1^ 3 = 371**
